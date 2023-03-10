@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+
+    <style>
+        body {
+          font-family: Arial, Helvetica, sans-serif;
+          margin: 0;
+        }
+        
+        html {
+          box-sizing: border-box;
+        }
+        
+        *, *:before, *:after {
+          box-sizing: inherit;
+        }
+        
+        .column {
+          float: left;
+          width: 33.3%;
+          margin-bottom: 16px;
+          padding: 0 8px;
+        }
+        
+        .card {
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          margin: 8px;
+        }
+        
+        .about-section {
+          padding: 50px;
+          text-align: center;
+          /* background-color: #474e5d; */
+          background-color: #18191A;
+          color: white;
+        }
+        
+        .container {
+          padding: 0 16px;
+          border-radius: round;
+        }
+        
+        .container::after, .row::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+        
+        .title {
+          color: grey;
+        }
+        
+        .button {
+          border: none;
+          outline: 0;
+          display: inline-block;
+          padding: 8px;
+          color: white;
+          background-color: #3e3c3c;
+          text-align: center;
+          cursor: pointer;
+          width: 100%;
+        }
+        
+        .button:hover {
+          background-color: #313030;
+        }
+        
+        @media screen and (max-width: 650px) {
+          .column {
+            width: 100%;
+            display: block;
+          }
+        }
+        </style>
+
+<div class="header bg-dark">
+  <div class="container-fluid" >
+      <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#" ><img src="0img.png" width="30px" height="30px"> Future Film Production Limited</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav ms-auto">
+                <a class="nav-link active" href="index.html">Home</a> <!--aria-current="page"-->
+                <a class="nav-link" href="C:\Users\ASUS\Downloads\delivery wdd file\wddassignmentfiles\test.html">Log In</a>
+                <a class="nav-link" href="C:\Users\ASUS\Downloads\delivery wdd file\exercise file\abt.html">About Us</a>
+                <a class="nav-link" href="C:\Users\ASUS\Downloads\delivery wdd file\wddassignmentfiles\nc.html">Contact Us</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+  </div>
+  </div>
+
+</head>
+<body>
+    
+
+    <div class="about-section">
+        <h1>About Us </h1>
+        <p>Welcome to Future Film Production Limited, your ultimate destination for the latest and greatest in cinema entertainment.</p>
+        <p>At our cinema, we are passionate about providing our customers with the highest quality movie-going experience possible. At Future Film Production, we pride ourselves on our extensive selection of movies, catering to a wide range of tastes and preferences. Whether you're looking for the latest Hollywood blockbuster, an indie film gem, or a classic cinema masterpiece, we have something for everyone.
+
+            Our friendly and knowledgeable staff is always on hand to help you with any questions or concerns you may have. We are committed to providing exceptional customer service, ensuring that your movie-going experience with us is always a positive one.
+            
+            We also offer a variety of special events and promotions throughout the year, so be sure to check our website and social media channels for the latest updates.
+            
+            Thank you for choosing Future Film Production as your go-to destination for movie entertainment.</p>
+      </div>
+      <br/>
+      <h2 style="text-align:center">Our Team</h2>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="nikil.jpg" alt="Jane" style="width:100%" >
+            <div class="container">
+              <h2>Jane Doe</h2>
+              <p class="title"> Founder</p>
+              <!-- <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+              <p>jane@example.com</p>
+              <p><button class="button">Contact</button></p> -->
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="sck.jpg" alt="Kyle" style="width:100%" >
+            <div class="container">
+              <h2>Kyle</h2>
+              <p class="title">Art Director</p>
+              <!-- <p>I recently visited the cinema and was thoroughly impressed with my experience. From start to finish, everything was exceptional.
+
+                Firstly, the cinema itself was very clean and well-maintained. The seating was comfortable and spacious, and the sound quality was impeccable.</p>
+              <p>mike@example.com</p> -->
+              
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="nithin.jpg" alt="John" style="width:100%">
+            <div class="container">
+              <h2>John Doe</h2>
+              <p class="title">Designer</p>
+              <!-- <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+              <p>john@example.com</p>
+              <p><button class="button">Contact</button></p> -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <footer>
+        
+          <div class="row">
+            <div class="col-md-12">
+              <hr>
+              <p class="text-center">&copy; 2023 Future Film Production. All Rights Reserved.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+      
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+</body>
+</html>
